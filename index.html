@@ -1,0 +1,79 @@
+
+<html>
+<head>
+    <title>APTE PROTOTYPE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="description" content="APTE">
+    <meta name="application-name" content="APTE">
+    <meta name="author" content="ajai">  
+    <link rel="stylesheet" href="css/custom.css" type="text/css">  
+    <script src="js/default.js"></script>
+   
+</head>
+<body>
+<style>
+    body{
+        overflow: hidden;
+    }
+</style>
+<h1 id="topic">APTE - LOGIN PANEL</h1>
+
+<button type="button" id="buttonAdmin">Admin</button>
+<button type="button" id="buttonSalesPerson">User</button>
+
+
+<div class="container">
+<div class="row">
+<!--<div class="col-sm-6" id="login1">-->
+<div id="login1">
+<div class="container" id="tadaa">
+    <form id="Ucheck" action="authAdmin.php" method="POST">
+    <label for="uname"><b>Admin ID</b></label>
+    <input type="text" id="U1" placeholder="Enter Admin ID" name="uname" value="" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" id="U2" placeholder="Enter Password" name="psw" value="" required>
+        
+    <input type="submit" >
+    </form>
+  </div>
+</div>
+<!--</div>
+<div class="col-sm-6" id="login2">-->
+    <div id="login2">
+    <div class="container" id="tadaa">   
+        <form id="Ucheck" action="authUser.php" method="POST">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" id="U1" placeholder="Enter User ID" name="uname" value="" required>
+        
+        <label for="psw"><b>Password</b></label>
+        <input type="password" id="U2" placeholder="Enter Password" name="psw" value="" required>
+                
+        <button id="U" value="submit">Login</button>
+    </form>
+<!--</div>-->
+</div>
+</div>
+</div></div>
+<div id="success">
+    <h1>Omaalay</h1>
+</div>
+
+</body>
+<script>
+
+
+
+
+</script>
+</html>
+
+
+
+
